@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+*::selection {
+    background: #7d2ae8;
+    color: #fff;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #7d2ae8;
+    padding: 20px;
+}
+.wrapper {
+    position: relative;
+    max-width: 90%;
+    height: auto;
+    background: #fff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+i {
+    font-size: 5em;
+    color: #7d2ae8;
+    border: 5px solid transparent;
+    outline: 3px solid #7d2ae8;
+    border-radius: 50%;
+}
+h2 {
+    font-size: 2em;
+    color: #7d2ae8;
+    margin: 15px 0;
+    text-align: center;
+}
+.btn-group {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    position: relative;
+}
+button {
+    position: absolute;
+    min-width: 120px;
+    height: 40px;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 20px;
+    border: 2px solid #7d2ae8;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+}
+button.yes-btn {
+    background: #7d2ae8;
+    left: 20%;
+}
+button.no-btn {
+    background: #fff;
+    color: #7d2ae8;
+    right: 20%;
+}
